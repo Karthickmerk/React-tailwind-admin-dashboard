@@ -72,7 +72,15 @@ git clone https://github.com/TailAdmin/free-react-tailwind-admin-dashboard.git
    # or
    yarn dev
    ```
-
+3. To Build:
+   ```bash
+   npm run build
+   ```
+4. To Run in local:
+   ```bash
+   npm install -g serve
+   serve -s <build Folder Name>
+   ```
 ## Components
 
 TailAdmin is a pre-designed starting point for building a web-based dashboard using React.js and Tailwind CSS. The
@@ -166,7 +174,7 @@ A major update with comprehensive redesign and modern React patterns implementat
 
 ### Version 1.3.6 - [Jan 31, 2024]
 
-#### Enhancements
+#### Enhancement
 
 1. Integrate flatpickr in [Date Picker/Form Elements]
 2. Change color after select an option [Select Element/Form Elements].
